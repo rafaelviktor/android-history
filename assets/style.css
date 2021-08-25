@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@font-face {
+    font-family: Idroid;
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #7efcae;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main h1 {
+    font-family: Idroid, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: #387039;
+}
+
+main h2 {
+    font-family: Idroid, Arial, Helvetica, sans-serif;
+    background-color: #c1ffd8;
+    color: #387039;
+}
+
+header {
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(to top, #387039, #76e978);
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.61);
+    box-shadow: 0px 0px 6px 1px rgba(0 0 0 / 55%);
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    padding: 9px;
+    padding-left: 0px;
+    text-align: left;
+    text-shadow: none;
+}
+
+nav a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #387039;
+}
+
+main {
+    background-color: white;
+    text-align: justify;
+    max-width: 840px;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 3px 6px 1px rgb(0 0 0 / 55%);
+}
+
+.content {
+    padding: 20px;
+}
+
+#droid-video {
+    background-color: #387039;
+    padding: 20px 0px;
+}
+#droid-video iframe{
+    display: block;
+    margin: auto
+}
+
+#container-versions h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 1.5em;
+    background-color: #387039;
+    color: white;
+    padding-left: 10px;
+    padding-block-start: 8px;
+    padding-block-end: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#container-versions {
+    background-color: #7efcae;
+    margin: 20px;
+    border-radius: 10px;
+    padding-bottom: 8px;
+    margin-bottom: 0px;
+}
+
+picture img {
+    display: block;
+    margin: auto;
+}
+
+#container-versions p {
+    padding: 0px 10px;
+    
+}
+
+.list {
+    display: inline-block;
+    margin-right: 10em;
+}
+
+footer {
+    background-color: #387039;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
