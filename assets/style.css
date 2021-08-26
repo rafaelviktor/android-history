@@ -110,6 +110,7 @@ picture img {
     height: auto;
     margin: auto;
     max-width: fit-content;
+    max-width: -moz-fit-content;
 }
 
 #container-versions p {
