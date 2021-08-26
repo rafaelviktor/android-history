@@ -121,7 +121,7 @@ picture img {
 .iframe-container{
     position: relative;
     width: 95%;
-    padding-bottom: 56.25%; 
+    padding-bottom: 53.35%; 
     height: 0;
     left: 50%;
     transform: translateX(-50%);
