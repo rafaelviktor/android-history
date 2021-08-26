@@ -19,6 +19,7 @@ body {
 
 main h1 {
     font-family: Idroid, Arial, Helvetica, sans-serif;
+    text-align: start;
     font-size: 2em;
     color: #387039;
 }
