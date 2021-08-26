@@ -136,6 +136,10 @@ picture img {
     margin-right: 10em;
 }
 
+li {
+    text-align: start;
+}
+
 footer {
     background-color: #387039;
     color: white;
