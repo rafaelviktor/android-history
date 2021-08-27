@@ -9,9 +9,17 @@
     src: url(fontes/idroid.otf);
 }
 
+:root {
+    --cor1: #F2F2F2;
+    --cor2: #1a9946;
+    --cor3: #41D983;
+    --cor4: #0B3140;
+    --cor5: #0E2440;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #7efcae;
+    background-color: var(--cor3);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,18 +29,18 @@ main h1 {
     font-family: Idroid, Arial, Helvetica, sans-serif;
     text-align: start;
     font-size: 2em;
-    color: #387039;
+    color: var(--cor2);
 }
 
 main h2 {
     font-family: Idroid, Arial, Helvetica, sans-serif;
-    background-color: #c1ffd8;
-    color: #387039;
+    background-color: var(--cor4);
+    color: var(--cor1);
 }
 
 header {
     font-family: 'Oswald', sans-serif;
-    background: linear-gradient(to top, #387039, #76e978);
+    background: linear-gradient(to top, var(--cor2), var(--cor5));
     text-align: center;
     padding-top: 20px;
     color: white;
@@ -57,8 +65,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #7efcae;
-    color: #387039;
+    background-color: var(--cor3);
+    color: var(--cor2);
     transition: .3;
 }
 
@@ -81,7 +89,7 @@ main p {
 }
 
 #droid-video {
-    background-color: #387039;
+    background-color: var(--cor2);
     padding: 20px 0px;
 }
 #droid-video iframe{
@@ -89,11 +97,11 @@ main p {
     margin: auto
 }
 
-#container-versions h1{
+aside h1{
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 1.5em;
-    background-color: #387039;
+    background-color: var(--cor2);
     color: white;
     padding-left: 10px;
     padding-block-start: 8px;
@@ -102,8 +110,8 @@ main p {
     border-top-right-radius: 10px;
 }
 
-#container-versions {
-    background-color: #7efcae;
+aside {
+    background-color: var(--cor3);
     margin: 20px;
     border-radius: 10px;
     padding-bottom: 8px;
@@ -119,9 +127,17 @@ picture img {
     max-width: -moz-fit-content;
 }
 
-#container-versions p {
+aside p {
     padding: 0px 10px;
     
+}
+
+aside ul {
+    columns: 2;
+}
+
+li {
+    text-align: start;
 }
 
 .iframe-container{
@@ -141,17 +157,8 @@ picture img {
     height: 100%;
 }
 
-.list {
-    display: inline-block;
-    margin-right: 10em;
-}
-
-li {
-    text-align: start;
-}
-
 footer {
-    background-color: #387039;
+    background-color: var(--cor2);
     color: white;
     padding: 20px;
     text-align: center;
